@@ -160,7 +160,7 @@ export default function Portfolio() {
                       ? "linear-gradient(to top right, #86efac, #93c5fd)"
                       : "linear-gradient(to top right, #fde68a, #fbcfe8)",
                 }}
-                key={project.title}
+                
               >
                 <motion.div
                   animate={{

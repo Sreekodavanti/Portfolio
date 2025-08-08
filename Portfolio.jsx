@@ -106,11 +106,12 @@ export default function Portfolio() {
             Sree Kodavanti
           </h1>
           <p
-            className="text-md font-semibold"
+            className="text-2xl font-semibold text-center mt-2"
             style={{ color: "#7c3aed", opacity: 0.9 }}
-          >
+            >
             Data Analyst | Making Data Behave with Minimal Sass 📉✨
           </p>
+
         </motion.header>
 
         {/* Projects Grid */}
@@ -303,7 +304,7 @@ export default function Portfolio() {
                 : "none",
             }}
           >
-            {contactHovered ? "Let's Make Data Fun! 🚀" : "Contact Me 📧"}
+            {contactHovered ? "sree.manasa99@gmail.com 📧" : "Contact Me 🚀"}
           </motion.button>
         </motion.footer>
       </main>
